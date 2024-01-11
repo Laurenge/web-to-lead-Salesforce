@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: scroll;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    position: relative;
+    margin: 10px;
+    padding: 0;
+    position:relative;
+    margin-top: 5px;
+       
+}
+
+.kopfseite {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu a{
+    color:black;
+    font-family: Manrope;
+    text-align: right;
+    margin-left: 30px;
+    padding: 10px;
+    text-decoration: none; 
+    font-weight: bold;  
+    transition: 0.7s;
+    border-radius: 10px;
+}
+
+.menu a:hover{
+    background-color: #fc2c03;
+}
+
+
+.logo img{
+    width: 150%;
+    height: 100px;
+    text-align: right;
+    margin-left: 60px;    
+}
+
+
+.main{
+    width:100px;
+    height: 90vh;
+    margin-top: 45px;
+}
+
+.main-left{
+    position: absolute;
+    top: 150px;
+    right: 700px;
+    margin-top: 20px;
+    margin-left: 90px;
+
+}
+
+h1{
+    color: gray;
+    font-family: Manrope;
+    font-size: 3em;
+    margin-top: 5px;
+}
+
+p{
+    color: orangered;
+    font-family: Manrope;
+    font-size: 2em;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 100px;
+}
+
+.btn a{
+    background: #fff;
+    font-size: 16px;
+    color: #ff0073;
+    border-radius: 25px;
+    padding: 15px 35px;
+    padding-left: 45px;
+    letter-spacing: 1px;
+    box-shadow: 2px 1px 7px #000;
+    text-decoration: none;   
+}
+
+.btn a ion-icon{
+    padding-left: 40px;
+}
+
+.main-r{
+    position: absolute;
+    top: 300px;
+    left: 500px;
+}
+
+.recht{
+    margin-left: 700px;
+    margin-top: 50px;
+
+}
+
+.recht img{
+    width: 500px;
+    height: 500px;
+}
+
+.recht-r{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 700px;
+    margin-top: 20px;
+
+}
+
+.recht-r img{
+    width: 100px;
+    height: 90px;
+}
+
+footer p{
+    font-family: calibri, sans-serif;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 10px;
+}
+
+footer p:nth-child(2){
+    font-size: 16px;
+    width: 600px;
+    color: #7e7d7d;
+    text-align: center;
+}
+
+footer{
+    display:flex;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.social-icons i, .social i{
+    color: black;
+
+}
+
+.social-icons a:hover{
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.social a:hover i{
+    color: white;
+    transition: all ease 0.5s;
+
+} 
+
+.copyright{
+    font-size: 12px;
+    color:#3e3d3d;
+}
+
+.social{
+    top: 50%;
+    right: 0;
+    /* transform: ermöglichen , unseren Selektor in der Mitte unserer Website zu zentrieren */
+    transform: translateY(-50%);
+    position:fixed;
+}
+
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    text-decoration: none;
+}
+
+.social i{
+    font-size: 20px;
+}
